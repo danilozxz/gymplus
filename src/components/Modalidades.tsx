@@ -20,8 +20,8 @@ export const Modalidades = () => {
     ]
     return (
         <section>
-            <div className='px-6 mt-24 flex flex-col items-center gap-12 xl:px-28'>
-                <h2 className='text-4xl font-bold'>Nossas modalidades</h2>
+            <div className='px-6 mt-16 flex flex-col items-center gap-12 xl:px-28'>
+                <h2 className='text-white text-2xl text-center font-bold xl:text-4xl'>Nossas modalidades</h2>
                 <div className='xl:hidden'>
                     <Swiper
                         slidesPerView={1}
@@ -33,7 +33,7 @@ export const Modalidades = () => {
                             data.map(item => (
                                 <SwiperSlide key={item.id}>
                                     <div className='bg-[#181616] max-w-full mx-4 h-[260px] p-6 rounded-2xl mb-12'>
-                                        <h3 className='text-2xl font-bold text-center'>{item.title}</h3>
+                                        <h3 className='text-xl font-bold text-center'>{item.title}</h3>
                                         <p className='text-[#808080] font-bold mt-4'>{item.desc}</p>
                                     </div>
                                 </SwiperSlide>
