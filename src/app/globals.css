@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.custom-swiper-pagination .swiper-pagination-bullet {
+  background-color: #1FAF54 !important;
+  width: 16px !important;
+  height: 16px !important;
+}
