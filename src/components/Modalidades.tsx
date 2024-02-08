@@ -46,7 +46,7 @@ export const Modalidades = () => {
                         data.map(item => (
 
                     <div className='bg-[#181616] max-w-64 min-w-60 h-[260px] p-6 rounded-2xl mb-12 2xl:max-w-72 2xl:min-w-72'>
-                        <h3 className='text-2xl font-bold text-center'>{item.title}</h3>
+                        <h3 className='text-white text-2xl font-bold text-center'>{item.title}</h3>
                         <p className='text-[#808080] font-bold mt-4 w-full'>{item.desc}</p>
                     </div>
                     ))

@@ -8,7 +8,7 @@ export const HeroBanner = () => {
             <div className="px-6 xl:px-28">
                 <header className='hidden xl:block'>
                     <nav className='flex justify-between items-center py-2'>
-                        <p className='text-6xl'>GYM+</p>
+                        <p className='text-6xl text-white'>GYM+</p>
                         <div className='flex gap-28 items-center'>
                             <ul className='flex gap-6'>
                                 <a href="#"><li className='text-white font-medium'>Planos</li></a>
@@ -16,7 +16,7 @@ export const HeroBanner = () => {
                                 <a href="#"><li className='text-white font-medium'>Contato</li></a>
                             </ul>
                             <div className='flex gap-4'>
-                                <button className='border px-6 rounded-lg font-semibold text-[18px] transition-all ease-linear hover:bg-[#ffffff17]'>Login</button>
+                                <button className='border px-6 rounded-lg font-semibold text-[18px] text-white transition-all ease-linear hover:bg-[#ffffff17]'>Login</button>
                                 <ButtonGreen children='Registrar'/>
                             </div>
                         </div>

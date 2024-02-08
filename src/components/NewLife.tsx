@@ -17,7 +17,7 @@ export const NewLife = () => {
                 <div className='bg-[#181616] px-6 mt-16 xl:flex xl:flex-row-reverse xl:justify-between xl:px-0'>
                     <div className='flex flex-col items-center xl:items-start'>
                         <h2 className='text-white text-2xl text-center font-bold pt-8 xl:text-4xl'>Inicie uma mudança física e mental</h2>
-                        <ul className='my-10'>
+                        <ul className='my-10 text-white'>
                             {data.map(item => (
                                 <div className='flex gap-3 mt-6 items-center'>
                                     <img src={verificado.src} alt="Ícone de verificado" />
