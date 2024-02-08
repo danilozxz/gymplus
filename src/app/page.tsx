@@ -2,12 +2,16 @@
 
 import { HeroBanner } from "@/components/HeroBanner";
 import { Modalidades } from "@/components/Modalidades";
+import { NewLife } from "@/components/NewLife";
 
 const Page = () => {
   return (
-    <div className="bg-[#110F0F] max-w-[2200px] mx-auto">
-      <HeroBanner/>
-      <Modalidades/>
+    <div className="bg-[#110F0F]">
+      <div className="max-w-[1600px] mx-auto">
+        <HeroBanner />
+        <Modalidades />
+        <NewLife />
+      </div>
     </div>
   )
 }

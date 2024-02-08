@@ -21,7 +21,7 @@ export const Modalidades = () => {
     return (
         <section>
             <div className='px-6 mt-16 flex flex-col items-center gap-12 xl:px-28'>
-                <h2 className='text-white text-2xl text-center font-bold xl:text-4xl'>Nossas modalidades</h2>
+                <h2 className='w-full text-white text-2xl text-center font-bold xl:text-4xl xl:text-start'>Nossas modalidades</h2>
                 <div className='xl:hidden'>
                     <Swiper
                         slidesPerView={1}
