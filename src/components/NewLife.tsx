@@ -14,8 +14,8 @@ export const NewLife = () => {
     return (
         <section>
             <div className='xl:px-28'>
-                <div className='bg-[#181616] px-6 mt-16 xl:flex xl:flex-row-reverse xl:justify-between xl:px-0'>
-                    <div className='flex flex-col items-center xl:items-start'>
+                <div className='bg-[#181616] px-6 mt-16 xl:grid xl:grid-cols-2 xl:px-0 xl:h-[500px]'>
+                    <div className='flex flex-col items-center xl:col-start-2 xl:items-start xl:px-12'>
                         <h2 className='text-white text-2xl text-center font-bold pt-8 xl:text-4xl'>Inicie uma mudança física e mental</h2>
                         <ul className='my-10 text-white'>
                             {data.map(item => (
@@ -29,9 +29,9 @@ export const NewLife = () => {
                             <ButtonGreen children='Iniciar' />
                         </div>
                     </div>
-                    <div className='flex justify-center pb-10 xl:pb-0 '>
+                    <div className='flex justify-center pb-10 xl:pb-0 xl:col-start-1 xl:row-start-1 '>
                         <img src={heroImg.src} alt="Mulher levantando alteres na academia" className='xl:hidden' />
-                        <img src={heroDesktop.src} alt="Mulher levantando alteres na academia" className='hidden xl:block' />
+                        <img src={heroDesktop.src} alt="Mulher levantando alteres na academia" className='hidden xl:block w-full h-[500px]' />
                     </div>
                 </div>
             </div>

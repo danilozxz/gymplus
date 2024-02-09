@@ -28,7 +28,8 @@ export const HeroBanner = () => {
                         <p className='text-xl text-[#808080] mt-6'>Lorem teste parágrafo de teste para a page Lorem teste parágrafo de teste para a pageLorem teste parágrafo de teste</p>
                     </div>
                     <div>
-                        <img src={heroImageDesktop.src} alt="Homem e mulher levantando alteres" className='xl:min-w-[480px]' />
+                        <img src={heroImageMobile.src} alt="Homem e mulher levantando alteres" className='xl:hidden' />
+                        <img src={heroImageDesktop.src} alt="Homem e mulher levantando alteres" className='hidden xl:block xl:min-w-[480px]' />
                     </div>
                 </div>
             </div>

@@ -11,6 +11,9 @@ const Page = () => {
         <HeroBanner />
         <Modalidades />
         <NewLife />
+        <div className="mt-24">
+          teste
+        </div>
       </div>
     </div>
   )
