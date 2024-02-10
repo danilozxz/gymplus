@@ -81,9 +81,9 @@ export const Planos = () => {
     ]
 
     return (
-        <section>
-            <div className='my-8 xl:px-28'>
-                <h2 className='text-white text-2xl text-center font-bold px-6'>Assine um dos nossos planos</h2>
+        <section id='planos'>
+            <div className='mb-24 xl:px-28'>
+            <h2 className='w-full text-white text-2xl text-center font-bold xl:text-4xl'>Assine um dos nossos planos</h2>
 
                 {/* Mobile */}
                 <div className='mt-8'>

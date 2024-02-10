@@ -13,8 +13,8 @@ export const NewLife = () => {
 
     return (
         <section>
-            <div className='xl:px-28'>
-                <div className='bg-[#181616] px-6 mt-16 xl:grid xl:grid-cols-2 xl:px-0 xl:h-[500px]'>
+            <div className='mb-24 xl:px-28'>
+                <div className='bg-[#181616] px-6 xl:grid xl:grid-cols-2 xl:px-0 xl:h-[500px]'>
                     <div className='flex flex-col items-center xl:col-start-2 xl:items-start xl:px-12'>
                         <h2 className='text-white text-2xl text-center font-bold pt-8 xl:text-4xl'>Inicie uma mudança física e mental</h2>
                         <ul className='my-10 text-white'>

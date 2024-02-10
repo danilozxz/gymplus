@@ -19,8 +19,8 @@ export const Modalidades = () => {
         { id: 4, title: 'Ritmos', desc: `Lorem Ipsum is simply dummy tting industry. Lorem Ipsum has been the industry's standa` },
     ]
     return (
-        <section>
-            <div className='px-6 mt-16 flex flex-col items-center gap-12 xl:px-28 xl:grid'>
+        <section id='modalidades'>
+            <div className='px-6 flex flex-col items-center gap-12 mb-24 xl:px-28 xl:grid'>
                 <h2 className='w-full text-white text-2xl text-center font-bold xl:text-4xl xl:text-start'>Nossas modalidades</h2>
 
                 {/* Mobile */}
@@ -49,7 +49,7 @@ export const Modalidades = () => {
                     {
                         data.map(item => (
 
-                    <div className='bg-[#181616]  min-w-60 h-[260px] p-6 rounded-2xl mb-12 2xl:min-w-72'>
+                    <div className='bg-[#181616]  min-w-60 h-[260px] p-6 rounded-2xl 2xl:min-w-72'>
                         <h3 className='text-white text-2xl font-bold text-center'>{item.title}</h3>
                         <p className='text-[#808080] font-bold mt-4 w-full'>{item.desc}</p>
                     </div>

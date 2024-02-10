@@ -5,7 +5,7 @@ import facebook from '@/assets/footer/Vector-2.png'
 
 export const Footer = () => {
     return (
-        <footer className='border-t mt-12'>
+        <footer className='border-t'>
             <div className='flex flex-col items-center text-center gap-8 py-8 xl:px-28 xl:flex-row xl:justify-between'>
                 <div className='text-white'>
                     <p className="font-bold text-lg">Gym+</p>
