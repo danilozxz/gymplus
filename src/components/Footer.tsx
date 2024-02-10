@@ -13,20 +13,20 @@ export const Footer = () => {
                 </div>
 
                 <div className='flex flex-col gap-8 xl:flex-row xl:gap-16'>
-                    <div className='flex flex-col gap-2'>
+                    <div className='flex flex-col gap-2 text-white'>
                         <p className="font-bold text-lg">Sitemap</p>
                         <p className="font-medium">About us</p>
                         <p className="font-medium">About us</p>
                         <p className="font-medium">About us</p>
                         <p className="font-medium">About us</p>
                     </div>
-                    <div className='flex flex-col gap-2'>
+                    <div className='flex flex-col gap-2 text-white'>
                         <p className="font-bold text-lg">Suporte</p>
                         <p className="font-medium">FAQ</p>
                         <p className="font-medium">Support center</p>
                     </div>
 
-                    <div>
+                    <div className='text-white'>
                         <p className="font-bold text-lg">Social Media</p>
                         <div className='flex justify-between mt-2'>
                             <a href="#"><img src={instagram.src} alt="" /></a>
