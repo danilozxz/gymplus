@@ -3,9 +3,37 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { register } from 'swiper/element/bundle'
 import { ButtonGreen } from './ButtonGreen'
 import vericado from '@/assets/planos/verificadoBranco.png'
+import { useEffect } from 'react'
 register()
 
 export const Planos = () => {
+
+
+    useEffect(() => {
+        const containers = document.querySelectorAll('.mudaCores');
+
+        containers.forEach((container) => {
+            const titulo = container.querySelector('.mudaCorTitulo');
+            const btnGreen = container.querySelector('.btnGreen');
+            const btnBlack = container.querySelector('.btnBlack');
+
+            container.addEventListener('mouseover', function () {
+                container.classList.add('hover:bg-[#1FAF54]');
+                titulo?.classList.add('text-white');
+                btnGreen?.classList.add('hidden');
+                btnBlack?.classList.remove('hidden');
+            });
+
+            container.addEventListener('mouseout', function () {
+                container.classList.remove('hover:bg-[#1FAF54]');
+                titulo?.classList.remove('text-white');
+                btnGreen?.classList.remove('hidden');
+                btnBlack?.classList.add('hidden');
+            });
+        });
+    }, []);
+
+
     const data = [
         {
             id: 1,
@@ -54,8 +82,10 @@ export const Planos = () => {
 
     return (
         <section>
-            <div className='my-8'>
+            <div className='my-8 xl:px-28'>
                 <h2 className='text-white text-2xl text-center font-bold px-6'>Assine um dos nossos planos</h2>
+
+                {/* Mobile */}
                 <div className='mt-8'>
                     <div className='xl:hidden'>
                         <Swiper
@@ -92,6 +122,33 @@ export const Planos = () => {
                             }
                         </Swiper>
                     </div>
+
+                    {/* Desktop */}
+                    <div className='hidden xl:grid grid-cols-3 gap-8 '>
+                        {data.map(item => (
+                            <div className='bg-[#181616] rounded-2xl relative h-[540px] transition-all ease-linear bg-red mudaCores'>
+                                <h3 className='text-[#1FAF54] text-2xl font-bold text-center py-4 mudaCorTitulo'>{item.title}</h3>
+                                <div className='px-8'>
+                                    <ul className='flex flex-col gap-6'>
+                                        {item.available.map(opcao => (
+                                            <div className='flex items-center gap-2'>
+                                                <img src={vericado.src} className='w-6 h-6' />
+                                                <li className='text-white font-bold'>{opcao}</li>
+                                            </div>
+                                        ))}
+                                    </ul>
+                                </div>
+
+                                <div className='absolute bottom-8 w-full flex justify-center'>
+                                    <div className='btnGreen'>
+                                        <ButtonGreen children='Assinar plano' />
+                                    </div>
+                                    <button className="text-white bg-[#000000] font-semibold text-[18px] py-2 px-6 rounded-lg transition-all ease-linear hover:bg-[#171717] hidden btnBlack">Assinar plano</button>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+
                 </div>
             </div>
         </section>

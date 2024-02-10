@@ -1,5 +1,7 @@
 'use client'
 
+import { Contato } from "@/components/Contato";
+import { Footer } from "@/components/Footer";
 import { HeroBanner } from "@/components/HeroBanner";
 import { Modalidades } from "@/components/Modalidades";
 import { NewLife } from "@/components/NewLife";
@@ -13,6 +15,8 @@ const Page = () => {
         <Modalidades />
         <NewLife />
         <Planos/>
+        <Contato/>
+        <Footer/>
       </div>
     </div>
   )

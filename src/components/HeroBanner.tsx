@@ -11,9 +11,9 @@ export const HeroBanner = () => {
                         <p className='text-6xl text-white'>GYM+</p>
                         <div className='flex gap-28 items-center'>
                             <ul className='flex gap-6'>
-                                <a href="#"><li className='text-white font-medium'>Planos</li></a>
-                                <a href="#"><li className='text-white font-medium'>Modalidades</li></a>
-                                <a href="#"><li className='text-white font-medium'>Contato</li></a>
+                                <a href="#"><li className='text-white font-medium transition-all ease-linear hover:text-[#1FAF54]'>Planos</li></a>
+                                <a href="#"><li className='text-white font-medium transition-all ease-linear hover:text-[#1FAF54]'>Modalidades</li></a>
+                                <a href="#"><li className='text-white font-medium transition-all ease-linear hover:text-[#1FAF54]'>Contato</li></a>
                             </ul>
                             <div className='flex gap-4'>
                                 <button className='border px-6 rounded-lg font-semibold text-[18px] text-white transition-all ease-linear hover:bg-[#ffffff17]'>Login</button>
