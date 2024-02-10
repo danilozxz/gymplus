@@ -22,6 +22,8 @@ export const Modalidades = () => {
         <section>
             <div className='px-6 mt-16 flex flex-col items-center gap-12 xl:px-28 xl:grid'>
                 <h2 className='w-full text-white text-2xl text-center font-bold xl:text-4xl xl:text-start'>Nossas modalidades</h2>
+
+                {/* Mobile */}
                 <div className='xl:hidden'>
                     <Swiper
                         slidesPerView={1}
@@ -41,6 +43,8 @@ export const Modalidades = () => {
                         }
                     </Swiper>
                 </div>
+
+                {/* Desktop */}
                 <div className='hidden xl:grid xl:grid-cols-4 gap-8'>
                     {
                         data.map(item => (
@@ -54,21 +58,7 @@ export const Modalidades = () => {
                     
                 </div>
 
-
             </div>
         </section>
     )
 }
-
-{/* <div className='hidden xl:flex xl:w-full justify-between gap-8'>
-                    {
-                        data.map(item => (
-
-                    <div className='bg-[#181616] max-w-64 min-w-60 h-[260px] p-6 rounded-2xl mb-12 2xl:max-w-72 2xl:min-w-72'>
-                        <h3 className='text-white text-2xl font-bold text-center'>{item.title}</h3>
-                        <p className='text-[#808080] font-bold mt-4 w-full'>{item.desc}</p>
-                    </div>
-                    ))
-                    }
-                    
-                </div> */}

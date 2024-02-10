@@ -22,7 +22,7 @@ export const HeroBanner = () => {
                         </div>
                     </nav>
                 </header>
-                <div className="flex flex-col gap-12 items-center xl:flex-row xl:justify-between">
+                <div className="flex flex-col gap-12 items-center xl:flex-row xl:justify-between xl:my-16">
                     <div className='xl:max-w-[720px] xl:min-w-[480px]'>
                         <h1 className='text-white text-4xl font-bold xl:text-6xl'>Helps for your ideal body fitness</h1>
                         <p className='text-xl text-[#808080] mt-6'>Lorem teste parágrafo de teste para a page Lorem teste parágrafo de teste para a pageLorem teste parágrafo de teste</p>

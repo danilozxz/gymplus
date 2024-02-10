@@ -3,6 +3,7 @@
 import { HeroBanner } from "@/components/HeroBanner";
 import { Modalidades } from "@/components/Modalidades";
 import { NewLife } from "@/components/NewLife";
+import { Planos } from "@/components/Planos";
 
 const Page = () => {
   return (
@@ -11,9 +12,7 @@ const Page = () => {
         <HeroBanner />
         <Modalidades />
         <NewLife />
-        <div className="mt-24">
-          teste
-        </div>
+        <Planos/>
       </div>
     </div>
   )
