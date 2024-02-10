@@ -77,7 +77,7 @@ export const Planos = () => {
                                                     {item.available.map(opcao => (
                                                         <div className='flex items-center gap-2'>
                                                             <img src={vericado.src} className='w-6 h-6' />
-                                                            <li>{opcao}</li>
+                                                            <li className='text-white'>{opcao}</li>
                                                         </div>
                                                     ))}
                                                 </ul>
