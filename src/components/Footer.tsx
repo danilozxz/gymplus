@@ -1,4 +1,4 @@
-import instagram from '@/assets/footer/Vector.png'
+import instagram from '@/assets/footer/instagramIcon.png'
 import linkedin from '@/assets/footer/linkedinIcon.png'
 
 
