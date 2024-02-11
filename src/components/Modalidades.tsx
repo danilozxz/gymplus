@@ -13,10 +13,10 @@ import 'swiper/css';
 export const Modalidades = () => {
 
     const data = [
-        { id: 1, title: 'Musculação', desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since` },
-        { id: 2, title: 'Funcional', desc: `Lorem Ipsum is simply dummy tting industry. Lorem Ipsum has been the industry's standa` },
-        { id: 3, title: 'Natação', desc: `Lorem Ipsum is simply dummy tting industry. Lorem Ipsum has been the industry's standa` },
-        { id: 4, title: 'Ritmos', desc: `Lorem Ipsum is simply dummy tting industry. Lorem Ipsum has been the industry's standa` },
+        { id: 1, title: 'Musculação', desc: `Potencialize seu corpo na musculação! Com equipamentos de qualidade e orientação profissional, fortaleça seus músculos e melhore sua saúde.` },
+        { id: 2, title: 'Funcional', desc: `Supere-se com nosso treino funcional! Equipamentos modernos e orientação especializada para fortalecer seu corpo.` },
+        { id: 3, title: 'Natação', desc: `Explore os benefícios da natação! Instrutores experientes e uma piscina de qualidade para aprimorar suas habilidades e promover seu bem-estar.` },
+        { id: 4, title: 'Ritmos', desc: `Sinta a energia das aulas de ritmos! Música contagiante e movimentos divertidos para um exercício animado e eficaz.` },
     ]
     return (
         <section id='modalidades'>

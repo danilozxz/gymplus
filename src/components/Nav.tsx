@@ -19,13 +19,13 @@ export const Nav = () => {
     return (
         <header className='bg-[#181616] xl:px-28 xl:bg-[#110F0F] '>
             <div className="flex justify-between items-center px-6 py-2 xl:hidden">
-                <p className='text-4xl font-bold text-white'>GYM+</p>
+                <p className='text-3xl font-bold text-white'>GYMPLUS</p>
                 <div className="cursor-pointer botao" onClick={handleClick}>
-                    <img src={menuHamburguer.src} alt="" className="w-12 h-12" />
+                    <img src={menuHamburguer.src} alt="" className="w-8 h-8" />
                 </div>
             </div>
             <nav id="nav" className='hidden xl:flex justify-between items-center py-2 xl:bg-[#110F0F]'>
-                <p className='hidden xl:inline-block text-6xl text-white font-bold'>GYM+</p>
+                <p className='hidden xl:inline-block text-6xl text-white font-bold'>GYMPLUS</p>
                 <div className='flex flex-col xl:flex-row xl:gap-28 items-center'>
                     <ul className='flex flex-col gap-4 xl:flex-row xl:gap-6'>
                         <a href="#planos"><li className='text-white font-medium transition-all ease-linear hover:text-[#1FAF54]'>Planos</li></a>
