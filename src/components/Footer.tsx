@@ -1,5 +1,6 @@
-import instagram from '@/assets/footer/instagramIcon.png'
-import linkedin from '@/assets/footer/linkedinIcon.png'
+import instagram from '@/assets/footer/instagramIcon.png';
+import linkedin from '@/assets/footer/linkedinIcon.png';
+import github from '@/assets/footer/gitubIcon.png';
 
 
 export const Footer = () => {
@@ -20,8 +21,9 @@ export const Footer = () => {
                     <div className='text-white'>
                         <p className="font-bold text-lg">Minhas redes:</p>
                         <div className='flex justify-around mt-2'>
-                            <a href="https://instagram.com/danilo.zxz" target='_blank'><img src={instagram.src} alt="" className='w-8 h-8'/></a>
-                            <a href="https://www.linkedin.com/in/dev-danilo-fernandes/" target='_blank'><img src={linkedin.src} alt="" className='w-8 h-8' /></a>
+                            <a href="https://www.linkedin.com/in/dev-danilo-fernandes/" target='_blank'><img src={linkedin.src} alt="logo linkedin" className='w-8 h-8' /></a>
+                            <a href="https://github.com/danilozxz" target='_blank'><img src={github.src} alt="logo github" className='w-8 h-8' /></a>
+                            <a href="https://instagram.com/danilo.zxz" target='_blank'><img src={instagram.src} alt="logo instagram" className='w-8 h-8'/></a>
                         </div>
                     </div>
                 </div>
