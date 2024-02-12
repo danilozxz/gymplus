@@ -5,7 +5,7 @@ import linkedin from '@/assets/footer/linkedinIcon.png'
 export const Footer = () => {
     return (
         <footer className='border-t'>
-            <div className='flex flex-col items-center text-center gap-8 py-8 xl:px-28 xl:flex-row xl:justify-between'>
+            <div className='flex flex-col items-center text-center gap-8 py-8 xl:px-28 xl:flex-row xl:justify-center xl:gap-36'>
                 <div className='text-white'>
                     <p className="font-bold text-lg">Gymplus</p>
                     <p className='w-[200px]'>Projeto desenvolvido para por em prática os meus conhecimentos em react e tailwindcss</p>
