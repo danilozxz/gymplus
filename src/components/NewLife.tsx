@@ -31,7 +31,7 @@ export const NewLife = () => {
                     </div>
                     <div className='flex justify-center pb-10 xl:pb-0 xl:col-start-1 xl:row-start-1 '>
                         <img src={heroImg.src} alt="Mulher levantando alteres na academia" className='xl:hidden' />
-                        <img src={heroDesktop.src} alt="Mulher levantando alteres na academia" className='hidden xl:block w-full h-[500px]' />
+                        <img src={heroDesktop.src} alt="Mulher levantando alteres na academia" className='hidden object-cover object-top xl:block w-full h-[500px]' />
                     </div>
                 </div>
             </div>
